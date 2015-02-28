@@ -8,11 +8,14 @@ Tested up to: 4.1
 Stable Tag: 1.0.1
 License: GNU Version 2 or Any Later Version
 
-Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with [EC SAF-MOSS schema](http://ec.europa.eu/taxation_customs/resources/documents/taxation/vat/how_vat_works/telecom/saf_moss_xsd_documentation_v11_final.zip).
+Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with EC SAF-MOSS schema.
 
 == Description ==
 
-The tax authority of any EU member state may request an audit of the sales of any EU business.  The EU tax authorities have agreed a standard audit file (SAF) format for the information necessary for an audit so it can be supplied electronically: the so-called [http://ec.europa.eu/taxation_customs/resources/documents/taxation/vat/how_vat_works/telecom/saf_moss_xsd_documentation_v11_final.zip](SAF-MOSS XML schema}.  This plugin allows you to specify a date range from which sales records will be extracted from your EDD or WooCommerce shop and stored in a file that is compliant with standard format.
+The tax authority of any EU member state may request an audit of the sales of any EU business.  The EU tax authorities 
+have agreed a standard audit file (SAF) format for the information necessary for an audit so it can be supplied electronically: 
+the so-called [SAF-MOSS XML schema](http://ec.europa.eu/taxation_customs/resources/documents/taxation/vat/how_vat_works/telecom/saf_moss_xsd_documentation_v11_final.zip).  This plugin allows you to specify a date range from which sales records
+will be extracted from your EDD or WooCommerce shop and stored in a file that is compliant with standard format.
 
 = Features =
 
