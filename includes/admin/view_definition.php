@@ -12,6 +12,9 @@
 
 namespace lyquidity\vat_moss_saf;
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 function view_definition($id)
 {
 	$from_year	= get_post_meta( $id, 'from_year',	true );

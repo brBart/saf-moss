@@ -5,7 +5,7 @@ Contributors: bseddon
 Tags: VAT, HMRC, MOSS, M1SS, audit, SAF, Standard Audit File, SAF, SAT-MOSS, tax, EU, UKdigital vat, Easy Digital Downloads, edd, edd tax, edd vat, eu tax, eu vat, eu vat compliance, european tax, european vat, iva, iva ue, Mehrwertsteuer, mwst, taux de TVA, tax, TVA, VAT, vat compliance, vat moss, vat rates, vatmoss
 Requires at least: 3.9.2
 Tested up to: 4.1
-Stable Tag: 1.0.2
+Stable Tag: 1.0.3
 License: GNU Version 2 or Any Later Version
 
 Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with EC SAF-MOSS schema.
@@ -62,6 +62,13 @@ This plugin requires that you capture VAT information in a supported format such
 
 = 1.0 =
 Initial version released
+
+Fixed a problem with an invalid constant name in vatidvalidator.php
+
+= 1.0.3 =
+
+Extra protections against malicious execution
+Small change to prevent js and css files being added to the front end
 
 
 == Upgrade Notice ==

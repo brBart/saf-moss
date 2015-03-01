@@ -10,7 +10,10 @@
  * @since       1.0
  */
 
- namespace lyquidity\vat_moss_saf;
+namespace lyquidity\vat_moss_saf;
+
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 class MOSS_Admin_Menu {
 	

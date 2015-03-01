@@ -12,6 +12,9 @@
 
 namespace lyquidity\vat_moss_saf;
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 function edit_definition($id)
 {	
 	if (isset($_REQUEST['change_periods']))

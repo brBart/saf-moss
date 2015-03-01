@@ -11,6 +11,9 @@
 
 namespace lyquidity\vat_moss_saf;
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * MOSS_SAF_Roles Class
  *

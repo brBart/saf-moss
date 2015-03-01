@@ -12,6 +12,9 @@
 
 namespace lyquidity\vat_moss_saf;
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class MOSS_SAF_WP_Settings {
 
 	private $options;

@@ -12,6 +12,9 @@
 
 namespace lyquidity\vat_moss_saf;
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 function delete_definition($id, $delete_post = true)
 {
 	if (!current_user_can('delete_definitions'))
