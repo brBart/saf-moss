@@ -65,7 +65,7 @@ class MOSS_SAF_Definitions extends \WP_List_Table {
 	 */
 	function get_from_year()
 	{
-		return isset( $_REQUEST[ 'transaction_from_year' ] ) ? $_REQUEST[ 'transaction_from_year' ]	: date('Y');
+		return isset( $_REQUEST[ 'from_year' ] ) ? $_REQUEST[ 'from_year' ]	: date('Y');
 	}
 
 	/**
@@ -73,7 +73,7 @@ class MOSS_SAF_Definitions extends \WP_List_Table {
 	 */
 	function get_from_month()
 	{
-		return isset( $_REQUEST[ 'transaction_from_month' ] ) ? $_REQUEST[ 'transaction_from_month' ] : date('m');
+		return isset( $_REQUEST[ 'from_month' ] ) ? $_REQUEST[ 'from_month' ] : date('m');
 	}
 
 	/**
@@ -81,7 +81,7 @@ class MOSS_SAF_Definitions extends \WP_List_Table {
 	 */
 	function get_to_year()
 	{
-		return isset( $_REQUEST[ 'transaction_to_year' ] ) ? $_REQUEST[ 'transaction_to_year' ]	: date('Y');
+		return isset( $_REQUEST[ 'to_year' ] ) ? $_REQUEST[ 'to_year' ]	: date('Y');
 	}
 
 	/**
@@ -89,7 +89,7 @@ class MOSS_SAF_Definitions extends \WP_List_Table {
 	 */
 	function get_to_month()
 	{
-		return isset( $_REQUEST[ 'transaction_to_month' ] )	? $_REQUEST[ 'transaction_to_month' ] : date('m');
+		return isset( $_REQUEST[ 'to_month' ] )	? $_REQUEST[ 'to_month' ] : date('m');
 	}
 
 	/** --------------------------------------------------------------
