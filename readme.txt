@@ -21,20 +21,20 @@ will be extracted from your EDD or WooCommerce shop and stored in a file that is
 
 **Select your e-commerce package**
 
-	* Easy Digital Downloads or
-	* Woo Commerce
+  * Easy Digital Downloads or
+  * Woo Commerce
 
 **Create quarterly definitions**
 
-	* Select the date range of the transactions to be included
-	* Convert transactions recorded in another currency into the currency of your company
-	* Generate a SAF file
+  * Select the date range of the transactions to be included
+  * Convert transactions recorded in another currency into the currency of your company
+  * Generate a SAF file
 	
-= Videos =
+**Videos**
 
-	[Watch videos](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
+[Watch videos](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
 
-= Generate a Standard Audit File =
+**Generate a Standard Audit File**
 
 [Buy credits](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Buy credits") to generate a standard audit file from your sales records.
 
