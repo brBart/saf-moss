@@ -120,6 +120,7 @@ function submit_definition($id)
 		$data = array(
 			'edd_action'			=> 'moss_saf_generate_audit_file',
 			'definition_key'		=> $definition_key,
+			'url'					=> site_url(),
 			'test_mode'				=> $test_mode,
 			'vrn'					=> $vat_number,
 			'company_name'			=> $company_name,

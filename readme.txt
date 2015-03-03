@@ -74,6 +74,10 @@ Small change to prevent js and css files being added to the front end
 
 Fixed a problem selecting definitions by month
 
+= 1.0.5 =
+
+Added the ability to test an upload file generation.  The file will be created but the values will be zero.
+
 == Upgrade Notice ==
 
 Nothing here
