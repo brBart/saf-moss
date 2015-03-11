@@ -122,7 +122,7 @@ class MOSS_SAF_Integration_WOOC extends MOSS_SAF_Integration_Base {
 			'type'		=> 'DECIMAL'
 		);
 		
-		$meta_query[] = array(
+/*		$meta_query[] = array(
 			'relation' => 'OR',
 			array(
 				'key'		=> 'VAT Number',
@@ -134,7 +134,35 @@ class MOSS_SAF_Integration_WOOC extends MOSS_SAF_Integration_Base {
 				'compare'	=> '='
 			)
 		);
-
+ */
+		$meta_query[] = array(
+			'relation' => 'AND',
+			array(
+				'relation' => 'OR',
+				array(
+					'key'		=> 'VAT Number',
+					'compare'	=> 'NOT EXISTS'
+				),
+				array(
+					'key'		=> 'Valid EU VAT Number',
+					'value'		=> 'false',
+					'compare'	=> '='
+				)
+			),
+			array(
+				'relation' => 'OR',
+				array(
+					'key'		=> 'vat_number',
+					'compare'	=> 'NOT EXISTS'
+				),
+				array(
+					'key'		=> 'vat_number',
+					'value'		=> '',
+					'compare'	=> '='
+				)
+			)
+		);
+		
 		$args = array(
 			'post_type' 		=> 'shop_order',
 			'posts_per_page' 	=> -1,

@@ -2,10 +2,10 @@
 Author URI: http://www.lyquidity.com/
 Plugin URI: http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/
 Contributors: bseddon
-Tags: VAT, HMRC, MOSS, M1SS, audit, SAF, Standard Audit File, SAF, SAT-MOSS, tax, EU, UKdigital vat, Easy Digital Downloads, edd, edd tax, edd vat, eu tax, eu vat, eu vat compliance, european tax, european vat, iva, iva ue, Mehrwertsteuer, mwst, taux de TVA, tax, TVA, VAT, vat compliance, vat moss, vat rates, vatmoss
+Tags: VAT, HMRC, MOSS, M1SS, audit, SAF, Standard Audit File, SAF, SAT-MOSS, tax, EU, UKdigital vat, Easy Digital Downloads, edd, edd tax, edd vat, eu tax, eu vat, eu vat compliance, european tax, european vat, iva, iva ue, Mehrwertsteuer, mwst, taux de TVA, tax, TVA, VAT, vat compliance, vat moss, vat rates, vatmoss, WooCommerce
 Requires at least: 3.9.2
 Tested up to: 4.1
-Stable Tag: 1.0.4
+Stable Tag: 1.0.6
 License: GNU Version 2 or Any Later Version
 
 Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with EC SAF-MOSS schema.
@@ -77,6 +77,11 @@ Fixed a problem selecting definitions by month
 = 1.0.5 =
 
 Added the ability to test an upload file generation.  The file will be created but the values will be zero.
+
+= 1.0.6 =
+
+Added support for EU VAT Assistant for WooCommerce from Aelia
+Added notices that VAT plugins must be installed and activated
 
 == Upgrade Notice ==
 
