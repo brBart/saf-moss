@@ -21,18 +21,18 @@ will be extracted from your EDD or WooCommerce shop and stored in a file that is
 
 **Select your e-commerce package**
 
-  * Easy Digital Downloads or
-  * Woo Commerce
+	* Easy Digital Downloads or
+	* Woo Commerce
 
 **Create quarterly definitions**
 
-  * Select the date range of the transactions to be included
-  * Convert transactions recorded in another currency into the currency of your company
-  * Generate a SAF file
+	* Select the date range of the transactions to be included
+	* Convert transactions recorded in another currency into the currency of your company
+	* Generate a SAF file
 	
 **Videos**
 
-[Watch videos](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
+	[Watch videos](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
 
 **Generate a Standard Audit File**
 
@@ -76,12 +76,16 @@ Fixed a problem selecting definitions by month
 
 = 1.0.5 =
 
-Added the ability to test an upload file generation.  The file will be created but the values will be zero.
+Added the ability to test an upload file generation.  The file will be created but the values will be zero
 
 = 1.0.6 =
 
 Added support for EU VAT Assistant for WooCommerce from Aelia
 Added notices that VAT plugins must be installed and activated
+
+= 1.0.7 =
+
+Fixed the tests to confirm the existence of the Lyquidity plugin (EDD) or the Simba or EU VAT Assistant plugin (WooCommerce)
 
 == Upgrade Notice ==
 
