@@ -129,7 +129,7 @@ function show_definitions()
 				<a href="?page=moss-saf-definitions&action=new_saf_definition" class="add-new-h2"><?php _e( 'Add New', 'vat_moss_saf' ); ?></a>
 			</h2>
 
-			<p>To find information to help you use this plug-in <a href="http://www.lyquidity.com/wpstore/wordpress-vat-moss-saf/">visit the plug-in page on our site</a>.</p>
+			<p>To find information to help you use this plug-in <a href="http://www.wproute.com/wordpress-vat-moss-saf/">visit the plug-in page on our site</a>.</p>
 			<p>Please note that to ensure we are able to process any audit files you create, to verify any completed audit file created requests or to be able to answer questions about any request you make that fail, details of your audit file will be held on our site.</p>
 <?php
 			if(function_exists('wincache_ucache_get') && ini_get('wincache.ucenabled'))

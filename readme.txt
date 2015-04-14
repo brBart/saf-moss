@@ -1,11 +1,11 @@
 === SAF MOSS ===
-Author URI: http://www.lyquidity.com/
-Plugin URI: http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/
+Author URI: http://www.wproute.com/
+Plugin URI: http://www.wproute.com/standard-audit-file-saf-moss/
 Contributors: bseddon
 Tags: VAT, HMRC, MOSS, M1SS, audit, SAF, Standard Audit File, SAF, SAT-MOSS, tax, EU, UKdigital vat, Easy Digital Downloads, edd, edd tax, edd vat, eu tax, eu vat, eu vat compliance, european tax, european vat, iva, iva ue, Mehrwertsteuer, mwst, taux de TVA, tax, TVA, VAT, vat compliance, vat moss, vat rates, vatmoss, WooCommerce
 Requires at least: 3.9.2
 Tested up to: 4.1
-Stable Tag: 1.0.6
+Stable Tag: 1.0.8
 License: GNU Version 2 or Any Later Version
 
 Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with EC SAF-MOSS schema.
@@ -32,11 +32,11 @@ will be extracted from your EDD or WooCommerce shop and stored in a file that is
 	
 **Videos**
 
-	[Watch videos](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
+	[Watch videos](http://www.wproute.com/standard-audit-file-saf-moss/ "Videos showing the plug-in working") showing how to configure the plug-in and create an audit file.
 
 **Generate a Standard Audit File**
 
-[Buy credits](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/ "Buy credits") to generate a standard audit file from your sales records.
+[Buy credits](http://www.wproute.com/standard-audit-file-saf-moss/ "Buy credits") to generate a standard audit file from your sales records.
 
 == Frequently Asked Questions ==
 
@@ -45,11 +45,11 @@ A. No but you will need a credit to be able to generate the audit file.
 
 == Installation ==
 
-Install the plugin in the normal way then select the settings option option from the VAT MOSS menu added to the main WordPress menu.  Detailed [configuration and use instructions](http://www.lyquidity.com/wpstore/standard-audit-file-saf-moss/) can be found on our web site.
+Install the plugin in the normal way then select the settings option option from the VAT MOSS menu added to the main WordPress menu.  Detailed [configuration and use instructions](http://www.wproute.com/standard-audit-file-saf-moss/) can be found on our web site.
 
 **Requires**
 
-This plugin requires that you capture VAT information in a supported format such as the format created by the [Lyquidity VAT plugin for EDD](http://www.lyquidity.com/wpstore/ "VAT for EDD") or the [Woo Commerce EU VAT Compliance plugin](https://www.simbahosting.co.uk/s3/product/woocommerce-eu-vat-compliance/ "Premium version").
+This plugin requires that you capture VAT information in a supported format such as the format created by the [Lyquidity VAT plugin for EDD](http://www.wproute.com/ "VAT for EDD") or the [Woo Commerce EU VAT Compliance plugin](https://www.simbahosting.co.uk/s3/product/woocommerce-eu-vat-compliance/ "Premium version").
 
 == Screenshots ==
 
@@ -86,6 +86,10 @@ Added notices that VAT plugins must be installed and activated
 = 1.0.7 =
 
 Fixed the tests to confirm the existence of the Lyquidity plugin (EDD) or the Simba or EU VAT Assistant plugin (WooCommerce)
+
+= 1.0.8 =
+
+Updated references to the service site
 
 == Upgrade Notice ==
 

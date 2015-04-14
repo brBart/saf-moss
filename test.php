@@ -1,18 +1,15 @@
 <?php error_log("");
 
-// Exit if accessed directly
-if ( ! defined( 'ABSPATH' ) ) exit;
-
 ini_set('display_errors', true);
 
 //setup global $_SERVER variables to keep WP from trying to redirect
 $_SERVER = array(
-  "HTTP_HOST" => "www.lyquidity.com",
-  "SERVER_NAME" => "www.lyquidity.com",
+  "HTTP_HOST" => "www.wproute.com",
+  "SERVER_NAME" => "www.wproute.com",
   "REQUEST_METHOD" => "GET",
   "REMOTE_ADDR" => '127.0.0.1',
   "HTTP_ACCEPT_LANGUAGE" => "en",
-  "REQUEST_URI" => "/wpstore/wp-admin/admin.php?page=moss-definitions&action=new_definition"
+  "REQUEST_URI" => "/wp-admin/admin.php?page=moss-definitions&action=new_definition"
 );
 //require the WP bootstrap
 require_once(dirname(__FILE__).'/../../../wp-load.php');
@@ -44,7 +41,7 @@ if ($vat_records === false)
 $saf_data =  base64_encode( gzdeflate( serialize( $vat_records ), 9 ) );
 
 $data = array(
-	'definition_key' => 'xxx',
+	'definition_key' => 'this is a test key',
 	'vrn' => $vat_number,
 	'company_name' => $vat_number,
 	'submitter' => $submitter,
