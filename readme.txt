@@ -4,8 +4,8 @@ Plugin URI: http://www.wproute.com/standard-audit-file-saf-moss/
 Contributors: bseddon
 Tags: VAT, HMRC, MOSS, M1SS, audit, SAF, Standard Audit File, SAF, SAT-MOSS, tax, EU, UKdigital vat, Easy Digital Downloads, edd, edd tax, edd vat, eu tax, eu vat, eu vat compliance, european tax, european vat, iva, iva ue, Mehrwertsteuer, mwst, taux de TVA, tax, TVA, VAT, vat compliance, vat moss, vat rates, vatmoss, WooCommerce
 Requires at least: 3.9.2
-Tested up to: 4.1
-Stable Tag: 1.0.8
+Tested up to: 4.2
+Stable Tag: 1.0.9
 License: GNU Version 2 or Any Later Version
 
 Create a Standard Audit File (SAF) of MOSS EDD or WooCommerce sales records and output as an Xml formatted file compliant with EC SAF-MOSS schema.
@@ -90,6 +90,10 @@ Fixed the tests to confirm the existence of the Lyquidity plugin (EDD) or the Si
 = 1.0.8 =
 
 Updated references to the service site
+
+= 1.0.8 =
+
+Updated add_query_arg calls to escape them as recommended by the WordPress advisory
 
 == Upgrade Notice ==
 
