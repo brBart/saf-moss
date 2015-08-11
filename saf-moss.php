@@ -4,8 +4,8 @@
 Plugin Name: WordPress VAT MOSS Standard Audit File Generator
 Plugin URI: http://www.wproute.com/downloads/vat-moss-saf/
 Description: Management and creation of standard audit files for MOSS.
-Version: 1.0.9
-Tested up to: 4.2
+Version: 1.0.10
+Tested up to: 4.3
 Author: Lyquidity Solutions
 Author URI: http://www.wproute.com/
 Contributors: Bill Seddon
@@ -317,7 +317,7 @@ class WordPressPlugin {
 		}
 
 		if ( ! defined( 'VAT_MOSS_SAF_VERSION' ) )
-			define( 'VAT_MOSS_SAF_VERSION', '1.0.9' );
+			define( 'VAT_MOSS_SAF_VERSION', '1.0.10' );
 
 		if ( ! defined( 'VAT_MOSS_SAF_WORDPRESS_COMPATIBILITY' ) )
 			define( 'VAT_MOSS_SAF_WORDPRESS_COMPATIBILITY', '4.1' );
@@ -350,7 +350,7 @@ class WordPressPlugin {
 			define('VAT_MOSS_SAF_REASON_SIMPLE_CHECK_FAILS',	 __('Simple check failed', 'vat_moss_saf'));
 
 		if (!defined('VAT_MOSS_SAF_ERROR_VALIDATING_VAT_ID'))
-			define('VAT_MOSS_SAF_ERROR_VALIDATING_VAT_ID',	 __('An error occurred validating the VAT number supplied', 'edd_vat'));
+			define('VAT_MOSS_SAF_ERROR_VALIDATING_VAT_ID',	 __('An error occurred validating the VAT number supplied', 'vat_moss_saf'));
 
 	}
 
